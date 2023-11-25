@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.light-dark-mode-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark-mode {
+  background-color: #000000;
+}
+.light-mode {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  border-radius: 9px;
+}
+.light-dark-mode-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+.dark-mode-heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.light-mode-hading {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+button {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  border-radius: 9px;
+}
